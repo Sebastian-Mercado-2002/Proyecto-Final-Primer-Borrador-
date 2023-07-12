@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+
+<head>
+  <title>Proyecto Final - Inicio de Sesión</title>
+  <!-- CSS -->
+</head>
+
+<body>
+  <h1>Iniciar Sesión</h1>
+
+  <form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Iniciar Sesión</button>
+  </form>
+
+  <!-- JavaScript -->
+
+</body>
+
+</html>
